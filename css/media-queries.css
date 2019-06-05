@@ -6,7 +6,7 @@
         float: left;
     }
     .hidden-on-desktop {
-             visibility: hidden;
+        visibility: hidden;
     }
     h1 {
         float: left;
@@ -14,8 +14,7 @@
     .nav-links {
         list-style-type: none;
         display: table;
-        margin: auto;
-        margin-right: 0;
+        margin: auto 0 auto auto;
         padding: 1em;
     }
     li {
@@ -59,7 +58,6 @@
     .alert-info {
         border: 2px solid #CCD2D2;
         background-color: #CBFFFF;
-        visibility: visible;
         margin: 0 auto;
         display: flex;
         text-align: center;
@@ -75,8 +73,7 @@
         margin: 10px 0;
     }
     h1 {
-        margin: .6em auto;
-        margin-top: 0;
+        margin: 0 auto .6em auto;
         text-align: center;
         font-size: 4em;
     }
